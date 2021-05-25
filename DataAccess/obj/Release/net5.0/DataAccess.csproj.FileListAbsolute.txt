@@ -1,0 +1,17 @@
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/DataAccess.deps.json
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/DataAccess.dll
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/ref/DataAccess.dll
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/DataAccess.pdb
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/Core.dll
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/Entities.dll
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/Core.pdb
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/bin/Release/net5.0/Entities.pdb
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.csprojAssemblyReference.cache
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.AssemblyInfoInputs.cache
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.AssemblyInfo.cs
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.csproj.CopyComplete
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.dll
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/ref/DataAccess.dll
+/Users/ramazanhalid/RiderProjects/MyFinalProject/DataAccess/obj/Release/net5.0/DataAccess.pdb
