@@ -5,6 +5,7 @@ using Business.Concrete;
 using Core.Utilities.Results;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Renci.SshNet.Messages;
 
@@ -23,17 +24,17 @@ namespace WebAPI.Controllers
         {
             _productService = productService;
         }
-
+        
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
-            Thread.Sleep(1000);
+           
             var result = _productService.GetAll();
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Data);
             }
-            return BadRequest(result) ;
+            return BadRequest(result.Data) ;
         }
 
         [HttpGet("getbyid")]
