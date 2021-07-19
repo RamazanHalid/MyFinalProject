@@ -28,7 +28,7 @@ namespace WebAPI.Controllers
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
-           
+            Thread.Sleep(1000);
             var result = _productService.GetAll();
             if (result.Success)
             {
@@ -60,6 +60,13 @@ namespace WebAPI.Controllers
             }
 
             return BadRequest(result);
+        }
+
+        [HttpGet("ramazan")]
+        public IActionResult Ramazan()
+        {
+            string ramo = "Ramazan halid 35 12312423 r4523 3rgferg ergerg";
+            return Ok(ramo);
         }
     }
 }

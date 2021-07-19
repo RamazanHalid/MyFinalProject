@@ -33,6 +33,7 @@ namespace WebAPI
             {
                 builder.AllowAnyOrigin()
                     .AllowAnyMethod()
+                    
                     .AllowAnyHeader();
             }));
             services.AddCors();
@@ -72,11 +73,15 @@ namespace WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
             }
+            else
+            {
+                app.UseHttpsRedirection();
+            }
             app.UseCors("MyPolicy");
 
-          //  app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+           app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
             
-            app.UseHttpsRedirection();
+            
 
             app.UseRouting();
 
