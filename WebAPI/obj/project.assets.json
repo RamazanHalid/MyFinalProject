@@ -2526,10 +2526,7 @@
         },
         "runtime": {
           "bin/placeholder/Business.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Core/1.0.0": {
         "type": "project",
@@ -2551,10 +2548,7 @@
         },
         "runtime": {
           "bin/placeholder/Core.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "DataAccess/1.0.0": {
         "type": "project",
@@ -2570,10 +2564,7 @@
         },
         "runtime": {
           "bin/placeholder/DataAccess.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Entities/1.0.0": {
         "type": "project",
@@ -2587,10 +2578,7 @@
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -8483,35 +8471,42 @@
     ]
   },
   "packageFolders": {
-    "/Users/ramazanhalid/.nuget/packages/": {}
+    "C:\\Users\\ramaz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ramazanhalid/RiderProjects/MyFinalProject/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/WebAPI/WebAPI.csproj",
-      "packagesPath": "/Users/ramazanhalid/.nuget/packages/",
-      "outputPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/WebAPI/obj/",
+      "projectPath": "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\ramaz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/ramazanhalid/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ramaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj": {
-              "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Business/Business.csproj"
+            "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\Business\\Business.csproj"
             },
-            "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj": {
-              "projectPath": "/Users/ramazanhalid/RiderProjects/MyFinalProject/Entities/Entities.csproj"
+            "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\Entities\\Entities.csproj"
             }
           }
         }
@@ -8561,7 +8556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
