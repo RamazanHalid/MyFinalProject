@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "87Vw+GqQZHySGWz2XoKUdGGHH9DZjk35BXJkr+vGIxO8I0BOYx760G3grHsaJU0p8JZQR12CvcZRDB7BZLPK2w==",
+  "dgSpecHash": "8ln8eiCmz/LMYQwPKF84gfokiR1qPR5l9SOhUxk+tqXDLwQqn9O1qyekK2zjB+juieevHkxCBlpRPzjft7UarA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ramaz\\Source\\Repos\\RamazanHalid\\MyFinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\ramaz\\.nuget\\packages\\mysql.data\\8.0.22\\mysql.data.8.0.22.nupkg.sha512",
     "C:\\Users\\ramaz\\.nuget\\packages\\mysql.data.entityframeworkcore\\8.0.22\\mysql.data.entityframeworkcore.8.0.22.nupkg.sha512",
     "C:\\Users\\ramaz\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\ramaz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ramaz\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ramaz\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ramaz\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

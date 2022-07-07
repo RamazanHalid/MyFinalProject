@@ -10,3 +10,15 @@
 /Users/ramazanhalid/RiderProjects/MyFinalProject/Core/obj/Debug/net5.0/Core.dll
 /Users/ramazanhalid/RiderProjects/MyFinalProject/Core/obj/Debug/net5.0/ref/Core.dll
 /Users/ramazanhalid/RiderProjects/MyFinalProject/Core/obj/Debug/net5.0/Core.pdb
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\bin\Debug\net5.0\Core.dll
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.dll
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\ramaz\Source\Repos\RamazanHalid\MyFinalProject\Core\obj\Debug\net5.0\Core.pdb

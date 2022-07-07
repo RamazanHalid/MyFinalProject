@@ -1,3 +1,4 @@
+using Business.Extensions;
 using Core.DependencyResolvers;
 using Core.Extensions;
 using Core.Utilities.IoC;
@@ -27,16 +28,18 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
             services.AddControllers();
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
                 builder.AllowAnyOrigin()
                     .AllowAnyMethod()
-                    
+
                     .AllowAnyHeader();
             }));
             services.AddCors();
+            services.ConfigureMapping();
+
             // services.AddSingleton<IProductService, ProductManager>();
             // services.AddSingleton<IProductDal, EfProductDal>();
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
@@ -44,7 +47,7 @@ namespace WebAPI
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
-                    options.TokenValidationParameters=new TokenValidationParameters
+                    options.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuer = true,
                         ValidateAudience = true,
@@ -52,16 +55,16 @@ namespace WebAPI
                         ValidIssuer = tokenOptions.Issuer,
                         ValidAudience = tokenOptions.Audience,
                         ValidateIssuerSigningKey = true,
-                          IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
+                        IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
 
             services.AddDependecyResolvers(new ICoreModule[]
-            { 
+            {
                 new CoreModule()
             });
-            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "WebAPI", Version = "v1"}); });
-        
+            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" }); });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -79,9 +82,10 @@ namespace WebAPI
             }
             app.UseCors("MyPolicy");
 
-           app.UseCors(builder=>builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
-            
-            
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+            app.ConfigureCustomExceptionMiddleware();
+
+
 
             app.UseRouting();
 
